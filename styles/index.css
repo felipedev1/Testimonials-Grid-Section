@@ -106,3 +106,25 @@ section.card .quotation {
   bottom: 3px;
   right: 20px;
 }
+
+@media(max-width: 768px) {
+  body {
+    font-size: 13px;
+  }
+  
+  section.card .user .user-info .name {
+    font-size: 16px;
+  }
+  
+  section.card .review {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 700px) {
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
